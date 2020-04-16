@@ -10,6 +10,9 @@ lets manage some research projects!
      :target: https://github.com/ambv/black
      :alt: Black code style
 
+with thanks to Jean-Zombie's awesome cookiecutter-django-wagtail_.
+
+.. _cookiecutter-django-wagtail: https://github.com/Jean-Zombie/cookiecutter-django-wagtail
 
 :License: MIT
 
