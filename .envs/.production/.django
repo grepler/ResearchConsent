@@ -1,0 +1,43 @@
+# General
+# ------------------------------------------------------------------------------
+# DJANGO_READ_DOT_ENV_FILE=True
+DJANGO_SETTINGS_MODULE=config.settings.production
+DJANGO_SECRET_KEY=jg3bYUrXUlP46xm3CQtgn7pAjA2NSay0vp1uZuQnf0ygII5lkYqGOpY3lEn1SOcy
+DJANGO_ADMIN_URL=58YVscxFULbdJXlIEtlz243NDM0zivIL/
+DJANGO_ALLOWED_HOSTS=.consent.grepler.io
+
+# Security
+# ------------------------------------------------------------------------------
+# TIP: better off using DNS, however, redirect is OK too
+DJANGO_SECURE_SSL_REDIRECT=False
+
+# Email
+# ------------------------------------------------------------------------------
+MAILGUN_API_KEY=
+DJANGO_SERVER_EMAIL=
+MAILGUN_DOMAIN=
+
+# django-allauth
+# ------------------------------------------------------------------------------
+DJANGO_ACCOUNT_ALLOW_REGISTRATION=True
+
+# Gunicorn
+# ------------------------------------------------------------------------------
+WEB_CONCURRENCY=4
+
+# Sentry
+# ------------------------------------------------------------------------------
+SENTRY_DSN=
+
+
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=VexgRRWnKMlmLyzPnOSLyuBNiXIExPHm
+CELERY_FLOWER_PASSWORD=HC26hh42Zm1mdd5FHZiajIqLNyMUNLve8Y9KZnYdu6GB0CILPBHFwqEIT27jZbmL
+
