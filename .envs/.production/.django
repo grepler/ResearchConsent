@@ -1,4 +1,6 @@
 # General
+# Notes: Yes, these are not the keys we'll be using in production.
+# Should be using Vault for secret storage, I expect.
 # ------------------------------------------------------------------------------
 # DJANGO_READ_DOT_ENV_FILE=True
 DJANGO_SETTINGS_MODULE=config.settings.production

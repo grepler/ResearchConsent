@@ -1,4 +1,6 @@
 # General
+# Notes: Yes, these are not the keys we'll be using in production.
+# Should be using Vault for secret storage, I expect.
 # ------------------------------------------------------------------------------
 USE_DOCKER=yes
 IPYTHONDIR=/app/.ipython

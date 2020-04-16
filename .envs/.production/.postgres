@@ -1,4 +1,6 @@
 # PostgreSQL
+# Notes: Yes, these are not the keys we'll be using in production.
+# Should be using Vault for secret storage, I expect.
 # ------------------------------------------------------------------------------
 POSTGRES_HOST=postgres
 POSTGRES_PORT=5432
